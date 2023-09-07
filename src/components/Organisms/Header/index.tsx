@@ -22,12 +22,13 @@ const Header = () => {
           <Image
             src="/logos/logo.svg"
             alt="logo finance flow"
-            width={136}
+            width={154}
             height={48}
           />
         </Link>
         <div
-          className="text-white absolute right-8 top-8 block lg:hidden"
+          className="text-white absolute right-8 top-8 block lg:hidden bg-blue-primary-light px-3 py-2.5 
+          rounded-full"
           onClick={handleOpenMenu}
         >
           {open ? <AiOutlineClose size={25} /> : <AiOutlineMenu size={25} />}
@@ -47,15 +48,15 @@ const Header = () => {
         <div
           className={
             open
-              ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#010725] ease-in-out duration-500'
-              : 'ease-in-out duration-500 fixed left-[-100%]'
+              ? 'fixed left-0 top-20 w-full h-full bg-[#010725] ease-in-out duration-700'
+              : 'ease-in-out duration-500 fixed top-[-100%]'
           }
         >
-          <nav className="flex flex-col lg:flex-row items-center gap-[27px] lg:ml-[66px] pt-[80px]">
+          <nav className="lg:hidden flex flex-col items-center gap-[27px] pt-[80px]">
             {NAV_ITEMS.map(item => (
-              <NavItem {...item} key={item.label} />
+              <NavItem {...item} key={item.label} className='text-3xl	'/>
             ))}
-            <Button className="mt-[40px] lg:mt-0">aperte aqui</Button>
+            <Button className="mt-[40px] w-[300px]">Download App</Button>
           </nav>
         </div>
       </div>
