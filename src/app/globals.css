@@ -4,11 +4,11 @@
 
 @layer base {
   body {
-    @apply bg-blue-primary-dark;
+    @apply bg-blue-primary-dark text-white;
   }
 
   .container {
-    @apply mx-auto w-full max-w-[1245px] px-6;
+    @apply mx-auto w-full max-w-[1245px] px-10;
   }
 
   *::-webkit-scrollbar {
