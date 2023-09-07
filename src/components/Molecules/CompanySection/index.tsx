@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export const CompanySection = () => {
   return (
-    <div className="flex flex-col items-center justify-center pt-[80px] lg:pt-0">
+    <div className="container flex flex-col items-center justify-center pt-[80px] lg:pt-0">
       <p className="font-sans text-base font-normal lg:text-lg">
         Finance flow has been featured on
       </p>
