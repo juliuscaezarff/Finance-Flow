@@ -48,7 +48,7 @@ const Header = () => {
         <div
           className={
             open
-              ? 'fixed left-0 top-20 w-full h-full bg-[#010725] ease-in-out duration-700'
+              ? 'lg:hidden fixed left-0 top-20 w-full h-full bg-[#010725] ease-in-out duration-700'
               : 'ease-in-out duration-500 fixed top-[-100%]'
           }
         >
