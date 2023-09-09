@@ -1,4 +1,4 @@
-import { TokenIconBox } from '@/components/Molecules/TokenIconBox'
+import { IconBox } from '@/components/Molecules/IconBox'
 import Image from 'next/image'
 
 export const HomeRewardsTokenSection = () => {
@@ -30,15 +30,15 @@ export const HomeRewardsTokenSection = () => {
             nulla suspendisse tortor aene.
           </p>
           <div className="flex flex-col gap-4">
-            <TokenIconBox
+            <IconBox
               iconsrc="/icons/token-icon-1.svg"
               text="Lowest fees in market"
             />
-            <TokenIconBox
+            <IconBox
               iconsrc="/icons/token-icon-2.svg"
               text="Fast and secure transactions"
             />
-            <TokenIconBox
+            <IconBox
               iconsrc="/icons/token-icon-3.svg"
               text="256-bit secure encryption"
             />
@@ -56,15 +56,15 @@ export const HomeRewardsTokenSection = () => {
             nulla suspendisse tortor aene.
           </p>
           <div className="flex flex-col gap-4">
-            <TokenIconBox
+            <IconBox
               iconsrc="/icons/token-icon-4.svg"
               text="100% Private data"
             />
-            <TokenIconBox
+            <IconBox
               iconsrc="/icons/token-icon-5.svg"
               text="99.99% Uptime guarantee"
             />
-            <TokenIconBox
+            <IconBox
               iconsrc="/icons/token-icon-6.svg"
               text="24/7 Dedicated support"
             />
