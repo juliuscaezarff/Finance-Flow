@@ -4,6 +4,7 @@ import { HomeRewardsTokenSection } from '@/components/Organisms/HomeRewardsToken
 import { ExploreAppSection } from '@/components/Molecules/ExploreAppSection'
 import { HomeGetStartedSection } from '@/components/Organisms/HomeGetStartedSection'
 import { HomeBlogSection } from '@/components/Organisms/HomeBlogSection'
+import { DownloadSection } from '@/components/Organisms/DownloadSection'
 
 export function HomePage() {
   return (
@@ -14,6 +15,7 @@ export function HomePage() {
       <ExploreAppSection />
       <HomeGetStartedSection />
       <HomeBlogSection />
+      <DownloadSection />
     </>
   )
 }
