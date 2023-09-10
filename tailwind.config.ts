@@ -21,7 +21,8 @@ const config: Config = {
         'blue-primary': '#010D50',
         'blue-primary-light': '#0328EE',
         'blue-primary-dark': '#010725',
-        'light-gray': '#FFFFFF'
+        'light-gray': '#FFFFFF',
+        'button-gray-dark': '#FFFFFF1A'
       }
     }
   },
