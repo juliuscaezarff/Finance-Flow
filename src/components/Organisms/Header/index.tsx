@@ -8,7 +8,7 @@ import { NAV_ITEMS } from './type'
 import { Button } from '@/components/Atoms/Button'
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
 
-const Header = () => {
+export const Header = () => {
   const [open, setOpen] = useState(false)
 
   const handleOpenMenu = () => {
