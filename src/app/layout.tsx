@@ -1,7 +1,8 @@
-import Header from '@/components/Organisms/Header'
-import './globals.css'
 import type { Metadata } from 'next'
+import Header from '@/components/Organisms/Header'
+import { Footer } from '@/components/Organisms/Footer'
 import { DM_Sans } from 'next/font/google'
+import './globals.css'
 
 const Sans = DM_Sans({
   variable: '--font-sans',
@@ -23,6 +24,7 @@ export default function RootLayout({
       <body className={Sans.variable}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   )
