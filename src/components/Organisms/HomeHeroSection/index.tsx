@@ -14,7 +14,7 @@ export const HomeHeroSection = () => {
           </p>
           <div className='flex lg:flex-row flex-col items-center justify-center mt-10 gap-4 lg:items-start lg:justify-start'>
             <Button className='w-full lg:w-[210px] lg:text-sm'>Download App</Button>
-            <Button className='w-full bg-[#FFFFFF1A] lg:w-[210px] lg:text-sm'>view pricing</Button>
+            <Button className='w-full bg-button-gray-dark lg:w-[210px] lg:text-sm'>view pricing</Button>
           </div>
         </div>
         <Image
