@@ -42,7 +42,7 @@ export const HomeBlogSection = () => {
       </div>
 
      <div className='flex items-center justify-center mt-10'>
-     <Button className='bg-button-gray-dark text-sm w-[242px]'>View All Articles</Button>
+     <Button className='bg-gray-dark text-sm w-[242px]'>View All Articles</Button>
      </div>
     </section>
   )

@@ -42,7 +42,7 @@ export const Footer = () => {
             <NavFooter />
           </div>
 
-          <div className="bg-gray-light rounded-[40px] px-[34px] py-[44px] mt-[56px] lg:w-[509px]">
+          <div className="bg-gray-dark rounded-[40px] px-[34px] py-[44px] mt-[56px] lg:w-[509px]">
             <h1 className="font-sans text-lg font-bold uppercase">
               Download our Application
             </h1>
