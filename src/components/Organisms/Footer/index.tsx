@@ -1,7 +1,7 @@
 'use client'
 
 import Image from 'next/image'
-import { BsInstagram } from 'react-icons/bs'
+import { BsGooglePlay, BsInstagram } from 'react-icons/bs'
 import { AiFillApple, AiFillFacebook } from 'react-icons/ai'
 import { BiLogoLinkedin } from 'react-icons/bi'
 import { NavFooter } from './NavFooter'
@@ -51,13 +51,13 @@ export const Footer = () => {
               sed nulla integer{' '}
             </p>
             <div className="flex flex-col lg:flex-row items-center mt-[18px] gap-4">
-              <Button className="flex gap-1 w-[274px] h-[70px]">
+              <Button className="flex gap-1 w-[274px] h-[70px] text-xs">
                 <AiFillApple size={26} />
                 App Store
               </Button>
-              <Button className="flex gap-1 w-[274px] h-[70px]">
-                <AiFillApple size={26} />
-                PLAY STORE
+              <Button className="flex gap-1 w-[274px] h-[70px] text-xs">
+                <BsGooglePlay size={26} />
+                Play store
               </Button>
             </div>
           </div>
