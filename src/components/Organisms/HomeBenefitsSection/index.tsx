@@ -19,7 +19,6 @@ export const HomeBenefitsSection = () => {
           </p>
         </div>
 
-
         <div className="flex flex-col gap-4 lg:flex-row mt-20 lg:gap-[26px]">
           <div className="flex flex-col gap-4">
             <HomeBenefitsBox
@@ -50,7 +49,7 @@ export const HomeBenefitsSection = () => {
               height={583}
               className="mt-10 lg:hidden"
             />
-             <Image
+            <Image
               src={'/assets/iphone-benefits-desktop.png'}
               alt="icone"
               width={374}
@@ -72,7 +71,7 @@ export const HomeBenefitsSection = () => {
           </div>
         </div>
 
-        <Button className='mt-12'>Download App</Button>
+        <Button className="mt-12">Download App</Button>
       </div>
     </section>
   )
