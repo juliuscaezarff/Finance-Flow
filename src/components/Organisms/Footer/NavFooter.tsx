@@ -11,7 +11,7 @@ export const NavFooter = () => {
           Home
         </Link>
         <Link
-          href={'/'}
+          href={'/about'}
           className="text-light-gray font-medium font-sans text-sm uppercase flex items-center gap-2"
         >
           About
