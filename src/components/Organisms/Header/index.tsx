@@ -2,7 +2,7 @@
 
 import Link from 'next/link'
 import Image from 'next/image'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { NavItem } from './nav-items'
 import { NAV_ITEMS } from './type'
 import { Button } from '@/components/Atoms/Button'
@@ -14,6 +14,12 @@ export const Header = () => {
   const handleOpenMenu = () => {
     setOpen(!open)
   }
+
+  useEffect(() => {
+    open
+      ? (window.document.body.style.overflow = "hidden")
+      : (window.document.body.style.overflow = "auto");
+  }, [open]);
 
   return (
     <header className="top-4 w-full h-24 flex items-center justify-center">
