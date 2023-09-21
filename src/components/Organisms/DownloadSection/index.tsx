@@ -8,7 +8,7 @@ export const DownloadSection = () => {
     <section className="container ">
       <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between">
         <h2 className="font-sans text-[28px] lg:text-[42px] font-bold w-[300px] lg:w-[468px] mt-20">
-          Browse our latest news
+        Download our app
         </h2>
         <p className="font-sans text-base lg:text-lg font-normal w-[330px] lg:w-[461px] mt-4 lg:mt-12">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit non neque
