@@ -55,6 +55,7 @@ export const AboutOurMission = () => {
             width={412}
             height={398}
             className="lg:hidden"
+            priority={false}
           />
 
           <Image
@@ -63,6 +64,7 @@ export const AboutOurMission = () => {
             width={654}
             height={632}
             className="hidden lg:block"
+            priority={false}
           />
         </div>
       </div>
