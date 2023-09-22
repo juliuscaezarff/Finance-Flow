@@ -4,7 +4,7 @@ import { HomeRewardsTokenSection } from '@/components/Organisms/HomeRewardsToken
 import { ExploreAppSection } from '@/components/Molecules/ExploreAppSection'
 import { HomeGetStartedSection } from '@/components/Organisms/HomeGetStartedSection'
 import { HomeBlogSection } from '@/components/Organisms/HomeBlogSection'
-import { DownloadSection } from '@/components/Organisms/DownloadSection'
+import { DownloadSection } from '@/components/Organisms/HomeDownloadSection'
 
 export function HomePage() {
   return (
