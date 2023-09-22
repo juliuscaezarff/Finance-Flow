@@ -1,11 +1,13 @@
 import Image from 'next/image'
 
-export const CompanySection = () => {
+interface CompanySectionProps {
+  text?: string
+}
+
+export const CompanySection = ({ text }: CompanySectionProps) => {
   return (
     <div className="container flex flex-col items-center justify-center pt-[80px] lg:pt-0">
-      <p className="font-sans text-base font-normal lg:text-lg">
-        Finance flow has been featured on
-      </p>
+      <p className="font-sans text-base font-normal lg:text-lg">{text}</p>
       <div className="flex flex-col items-center justify-center mt-6 lg:flex-row lg:gap-[93px]">
         <div className="flex gap-10 lg:gap-[93px]">
           <div className="flex flex-col lg:flex-row gap-5 lg:gap-[93px]">
@@ -42,7 +44,7 @@ export const CompanySection = () => {
           alt="logo company"
           width={179}
           height={32}
-          className='mt-4 lg:mt-0'
+          className="mt-4 lg:mt-0"
         />
       </div>
     </div>
