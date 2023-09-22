@@ -1,5 +1,4 @@
 import { AboutCard } from '@/components/Molecules/AboutCard'
-import { Card } from '@/components/Molecules/BenefitsBox'
 
 export const AboutHeroSection = () => {
   return (
