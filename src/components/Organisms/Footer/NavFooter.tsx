@@ -17,7 +17,7 @@ export const NavFooter = () => {
           About
         </Link>
         <Link
-          href={'/'}
+          href={'/pricing'}
           className="text-light-gray font-medium font-sans text-sm uppercase flex items-center gap-2"
         >
           Pricing
