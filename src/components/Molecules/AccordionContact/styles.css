@@ -1,0 +1,25 @@
+.AccordionChevron {
+  color: #fff;
+  transition: transform 300ms cubic-bezier(0.87, 0, 0.13, 1);
+}
+.AccordionTrigger[data-state='open'] > .AccordionChevron {
+  transform: rotate(180deg);
+}
+
+@keyframes slideDown {
+  from {
+    height: 0;
+  }
+  to {
+    height: 10px;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    height: 10px;
+  }
+  to {
+    height: 0;
+  }
+}
