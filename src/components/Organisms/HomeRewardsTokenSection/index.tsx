@@ -46,7 +46,7 @@ export const HomeRewardsTokenSection = () => {
         </div>
       </div>
 
-      <div className="flex flex-col lg:flex-row lg:items-center lg:gap-[163px]">
+      <div className="flex flex-col lg:flex-row lg:items-center lg:gap-[163px] lg:mt-[127px]">
         <div className="flex flex-col gap-4">
           <h2 className="font-sans text-[28px] font-bold mt-10 lg:w-[475px] lg:text-[42px]">
             Earn daily rewards on your idle tokens
@@ -71,13 +71,20 @@ export const HomeRewardsTokenSection = () => {
           </div>
         </div>
         <div>
-          <Image
-            src={'/assets/apple-computers-mobile.png'}
-            alt="imagem de dois celulares"
-            width={358}
-            height={215}
-            className="mt-10"
-          />
+        <Image
+          src={'/assets/apple-computers-mobile.png'}
+          alt="Image de computador"
+          width={358}
+          height={215}
+          className="mt-10 lg:hidden"
+        />
+        <Image
+          src={'/assets/Apple-Computers.png'}
+          alt="Image de computador"
+          width={971}
+          height={585}
+          className="mt-10 hidden lg:block"
+        />
         </div>
       </div>
     </section>
