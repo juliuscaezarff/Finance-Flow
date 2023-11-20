@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export const ExploreAppSection = () => {
   return (
-    <section className='w-full bg-blue-primary-light mt-[80px] lg:h-[450px]'>
+    <section className='w-full bg-blue-primary-light mt-[80px] lg:h-[450px] lg:mt-[219px]'>
       <div className='container mt-10 flex flex-col lg:flex-row items-center justify-center'>
         <div className='flex flex-col items-center justify-center lg:items-start'>
           <h2 className='font-sans w-[305px] lg:w-[589px] text-[28px] lg:text-[42px] font-bold text-center lg:text-left'>Explore endless possibilities with FinanceFlow</h2>
