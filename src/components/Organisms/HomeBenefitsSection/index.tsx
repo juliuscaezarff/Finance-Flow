@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 export const HomeBenefitsSection = () => {
   return (
-    <section>
+    <section className='lg:mt-[170px]'>
       <div className="container flex flex-col items-center justify-center">
         <CompanySection text='Finance flow has been featured on'/>
 
