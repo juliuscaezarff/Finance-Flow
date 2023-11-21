@@ -1,4 +1,5 @@
 import { Button } from '@/components/Atoms/Button'
+import { cn } from '@/lib/utils'
 import Image from 'next/image'
 
 interface BlogCardProps {
@@ -8,6 +9,7 @@ interface BlogCardProps {
   imagePerfilsrc: string
   name: string
   data: string
+  className?: string
 }
 
 export const BlogCard = ({
@@ -16,10 +18,16 @@ export const BlogCard = ({
   text,
   imagePerfilsrc,
   name,
-  data
+  data,
+  className
 }: BlogCardProps) => {
   return (
-    <div className="w-[358px] h-[580px] lg:w-[382px] lg:h-[590px] bg-blue-primary rounded-[40px] overflow-hidden">
+    <div
+      className={cn(
+        'w-[358px] h-[580px] lg:w-[382px] lg:h-[590px] bg-blue-primary rounded-[40px] overflow-hidden',
+        className
+      )}
+    >
       <Image
         src={imageBlogsrc}
         alt="imagem de um computador"
