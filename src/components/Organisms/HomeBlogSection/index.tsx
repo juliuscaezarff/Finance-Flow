@@ -4,7 +4,7 @@ import { BlogCard } from '@/components/Molecules/BlogCard'
 export const HomeBlogSection = () => {
   return (
     <section className="container">
-      <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between">
+      <div  className="flex flex-col lg:flex-row lg:items-center lg:justify-center lg:gap-[300px] mt-10">
         <h2 className="font-sans text-[28px] lg:text-[42px] font-bold w-[300px] lg:w-[468px] mt-20">
           Browse our latest news
         </h2>
