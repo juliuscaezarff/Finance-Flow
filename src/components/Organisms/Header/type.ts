@@ -12,10 +12,6 @@ export const NAV_ITEMS = [
     href: '/pricing'
   },
   {
-    label: 'Tokens',
-    href: '/tokens'
-  },
-  {
     label: 'Blog',
     href: '/blog'
   },
