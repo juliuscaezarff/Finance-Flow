@@ -5,6 +5,7 @@ import { ExploreAppSection } from '@/components/Molecules/ExploreAppSection'
 import { HomeGetStartedSection } from '@/components/Organisms/HomeGetStartedSection'
 import { HomeBlogSection } from '@/components/Organisms/HomeBlogSection'
 import { DownloadSection } from '@/components/Organisms/HomeDownloadSection'
+import { Carrousel } from '@/components/Organisms/HomeSlideSection'
 
 export function HomePage() {
   return (
@@ -13,6 +14,7 @@ export function HomePage() {
       <HomeBenefitsSection />
       <HomeRewardsTokenSection />
       <ExploreAppSection />
+      <Carrousel />
       <HomeGetStartedSection />
       <HomeBlogSection />
       <DownloadSection />
