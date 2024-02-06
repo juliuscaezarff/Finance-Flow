@@ -10,7 +10,7 @@ export const HomeBenefitsSection = () => {
         <CompanySection text='Finance flow has been featured on'/>
 
         <div className="lg:flex lg:flex-col lg:items-center lg:justify-center lg:w-[740px] mt-[64px]">
-          <h1 className="font-sans font-bold text-3xl w-[273px] lg:w-[534px] lg:text-[42px]">
+          <h1 className="font-sans font-bold text-3xl w-[273px] lg:w-[545px] lg:text-[42px]">
             Build your crypto portfolio
           </h1>
           <p className="font-sans text-base w-[314px] lg:w-[496px] lg:text-center mt-4">
